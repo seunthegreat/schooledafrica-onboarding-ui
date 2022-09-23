@@ -15,7 +15,7 @@ const Swiper = ({data, refContainer, index, scrollX}) => {
             horizontal
             onScroll={Animated.event(
                 [{ nativeEvent: { contentOffset: { x: scrollX } } }],
-                { useNativeDriver: true },
+                { useNativeDriver: false },
             )}
             scrollEventThrottle={16}
         />

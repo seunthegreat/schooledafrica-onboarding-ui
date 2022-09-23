@@ -2,8 +2,8 @@ export default [
     {
         type: 'First', 
         lottieSource: require('../../assets/lottie/online-learning1.json'), 
-        heading: 'Title 1',
-        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.',
+        heading: 'Get Smarter \nMuch Faster',
+        description: 'Schooled Africa accelerates learning with a wide range of resources and tools.',
         key: 'first', 
         color: '#9dcdfa'
     }, 

@@ -5,7 +5,9 @@ import {
     } from 'react-native';
 
 import { width } from "../../constants"; //--> constant
-import Lottie from 'lottie-react-native';
+import Lottie from 'lottie-react-native'; //--> Lottie package is imported here
+
+import { RFValue } from "react-native-responsive-fontsize";
 
 const Item = ({ lottieSource, heading, description, index, scrollX }) => {
 
@@ -77,10 +79,9 @@ const animationStyle = {
   }
   
   const headingStyle = {
-    color: 'white', 
-    textTransform : 'uppercase',
-    fontSize: 24, 
-    fontWeight: '800',
+    color: 'white',
+    fontSize: RFValue(30), 
+    fontWeight: '600',
     letterSpacing: 2,
     marginBottom: 5,
   }
@@ -89,8 +90,8 @@ const animationStyle = {
     color: 'white', 
     fontWeight: '300', 
     textAlign: 'left',
-    width: width * 0.75, 
+    width: width * 0.7, 
     marginRight: 10, 
-    fontSize: 16, 
+    fontSize: RFValue(14), 
     lineHeight: 16 * 1.5,
   }
