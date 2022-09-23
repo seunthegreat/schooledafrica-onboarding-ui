@@ -9,7 +9,7 @@ export default [
     }, 
     {
         type: 'Second', 
-        lottieSource: require('../../assets/lottie/online-learning3.json'), 
+        lottieSource: require('../../assets/lottie/online-learning2.json'), 
         heading: 'Title 2',
         description: 'Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.',
         key: 'second', 
@@ -17,7 +17,7 @@ export default [
     }, 
     {
         type: 'Third', 
-        lottieSource: require('../../assets/lottie/online-learning1.json'), 
+        lottieSource: require('../../assets/lottie/online-learning3.json'), 
         heading: 'Title 3',
         description: 'Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.',
         key: 'third', 
