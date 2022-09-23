@@ -13,6 +13,7 @@ const Swiper = ({data, refContainer, index, scrollX}) => {
             pagingEnabled
             showsHorizontalScrollIndicator={false}
             horizontal
+            onEndReached={()=> alert("Navigate to Login")}
             onScroll={Animated.event(
                 [{ nativeEvent: { contentOffset: { x: scrollX } } }],
                 { useNativeDriver: false },
